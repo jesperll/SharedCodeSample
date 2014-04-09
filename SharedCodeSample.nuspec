@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Jesperll.SharedCodeSample</id>
+    <version>1.0.0</version>
+    <authors>Jesper Larsen-Ledet</authors>
+    <owners>Jesper Larsen-Ledet</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Shared Code Sample</description>    
+    <copyright>Copyright 2014</copyright>
+  </metadata>
+  <files>
+    <file src="SharedCodeSample.Desktop\bin\Release\SharedCodeSample.dll" target="lib\net45" />
+    <file src="SharedCodeSample.Portable\bin\Release\SharedCodeSample.dll" target="lib\portable-net45+win+WindowsPhoneApp81+wp80" />
+    <file src="SharedCodeSample.WindowsPhone\bin\Release\SharedCodeSample.dll" target="lib\win" />
+  </files>
+</package>
