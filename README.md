@@ -19,6 +19,13 @@ It also contains a nuspec file for building a nuGet package that contains the 3 
 
 ## Good news
 - It builds.
+- Microsoft is working on making this easier to do (without resorting to hand editing project files)
+https://twitter.com/davkean/status/456523129813098497
 
 ##Bad news
-- If you add a new class to the shared project Visual Studio goes into an infinte loop of trying to open the newly added file for each of the projects. Only way out is to kill it through Task Manager.
+- ~~If you add a new class to the shared project Visual Studio goes into an infinite loop of trying to open the newly added file for each of the projects. Only way out is to kill it through Task Manager.~~
+
+##Update
+The bad news behavior was caused by a bug in VSCommands. Either update to the latest version (12.3.0.6) or disable it.
+https://getsatisfaction.com/dpstudio/topics/bug_in_universal_app_project_support_in_vs2013_update_2_rc
+http://visualstudiogallery.msdn.microsoft.com/c6d1c265-7007-405c-a68b-5606af238ece
